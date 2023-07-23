@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="index" autocomplete="off">
+        <fieldset style="width:400px;margin:auto;">
+            <legend>Registration</legend>
+        <table border="0" style="border:0px solid black;margin:auto;">
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" size="20" autofocus /></td>
+                <td>
+                    <input type="image" src="p2.png" style="width:50px;" />
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Pasword</label></td>
+                <td><input type="password" /></td>
+            </tr>
+
+            <tr>
+                <td><label>Email ID:</label></td>
+                <td><input type="email" /></td>
+            </tr>
+            
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" value="Male" name="gender">M 
+                    <input type="radio" value="Female" name="gender" checked>F
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Skills</label></td>
+                <td>
+                    <input type="checkbox" value="C"  name="skills"/> c
+                    <input type="checkbox" value="C++" name="skills"/> c++
+                    <input type="checkbox" value="JS" name="skills" /> JS
+                    </td>
+            </tr>
+
+            <tr>
+                <td><label>Marks(100)</label></td>
+                <td><input type="number" /></td>
+            </tr>
+
+            <tr>
+                <td><label>DOB</label></td>
+                <td><input type="date" /></td>
+            </tr>
+
+            <tr>
+                <td><label>Time</label></td>
+                <td><input type="time" /></td>
+            </tr>
+
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" pattern="[a-zA-z][]{5}" /></td>
+            </tr>
+
+
+            <tr>
+                <td><label>City</label></td>
+                <td>
+            <select style="cursor:grab" >
+                <option>Sohna</option>
+                <option>mumbai</option>
+                <option>Indri</option>
+                <option>Ghatkopar</option>
+                
+            </select>
+        </td>
+        </tr>
+
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register" style="width:240px;" />
+                    </td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
+
+
+
+
+
